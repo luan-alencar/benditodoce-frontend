@@ -1,6 +1,6 @@
 .container {
    height: 100%;
-   background: linear-gradient(180deg, rgb(97, 7, 7) 0%, rgb(167, 53, 53) 50%, rgb(146, 56, 52) 100%);
+   background: linear-gradient(180deg, rgb(97, 7, 7) 10%, rgb(167, 53, 53) 40%, rgb(146, 56, 52) 100%);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -11,19 +11,14 @@
    margin: auto;
    background-color: hwb(56 82% 1%);
    padding: 4rem 1rem;
-   border-radius: 1rem;
-}
-
-h1 {
-   width: 100%;
-   text-align: center;
-   
+   border-radius: 2rem;
 }
 
 img {
    height: 300px; 
    width: 300px; 
-   margin: 1.5rem auto; 
+   margin: 1.5rem auto;
+   margin-top: 10px; 
    display: block;
 }
 
@@ -38,3 +33,6 @@ button {
 mat-icon {
    opacity: .6;
 }
+
+
+

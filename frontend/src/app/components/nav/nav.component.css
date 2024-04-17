@@ -1,11 +1,16 @@
 .container {
    height: 100%;
+   width: 100%;
+   background-color: rgb(120, 42, 38);
 }
 
 .sidenav {
    width: 13rem;
    color: white;
-   background-color: rgb(253, 250, 209)
+   background-color: rgb(253, 250, 209);
+}
+.sidenav-content {
+   background: linear-gradient(180deg, rgb(97, 7, 7) 10%, rgb(168, 45, 45) 40%, rgb(120, 42, 38) 100%);
 }
 
 img {
@@ -25,6 +30,6 @@ img {
 
 .menu {
    margin: 1rem 0 0 1rem;
-   color: white;
-   background-color: rgb(167, 53, 53);
+   color: rgb(167, 53, 53);
+   background-color: rgb(241, 163, 5); 
 }

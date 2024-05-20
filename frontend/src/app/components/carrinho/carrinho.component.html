@@ -1,0 +1,16 @@
+<div class="carrinho">
+    <h2>Carrinho de Compras</h2>
+    <mat-card *ngFor="let item of carrinho.itens">
+      <mat-card-title>{{ item.produtoNome }}</mat-card-title>
+      <mat-card-content>
+        <p>Preço: {{ item.preco | currency }}</p>
+        <p>Quantidade: {{ item.quantidade }}</p>
+        <button mat-button color="warn" (click)="removerItem(item.produtoId)">Remover</button>
+      </mat-card-content>
+    </mat-card>
+    <div class="carrinho-total">
+      <h3>Total: {{ carrinho.total | currency }}</h3>
+      <button mat-button color="primary" (click)="limparCarrinho()">Limpar Carrinho</button>
+    </div>
+  </div>
+  

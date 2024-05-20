@@ -1,4 +1,4 @@
-export interface Cliente {
+export class Cliente {
    id?:         any;
    nome:     string;
    cpf:      string;
@@ -6,5 +6,7 @@ export interface Cliente {
    senha:    string;
    perfis: string[];
    dataCriacao: any;
+   
+   constructor (){}
  }
  

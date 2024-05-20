@@ -1,7 +1,19 @@
+.container {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 .card {
    width: 90%;
-   margin: 1rem auto;
-   background-color: rgb(235, 235, 235);
+   margin: 5rem auto;
+   background-color: rgb(253, 250, 209);
+   padding-right: 40px;
+   padding-left: 40px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   border-radius: 20px;
 }
 
 img {

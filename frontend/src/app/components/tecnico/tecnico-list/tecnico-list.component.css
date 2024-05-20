@@ -5,6 +5,8 @@
 
 table {
    width: 100%;
+   background-color: rgb(253, 250, 209);
+   border-radius: 10px;
 }
 
 mat-form-field {
@@ -22,9 +24,9 @@ h1 {
 }
 
 .edit {
-   color: rgb(0, 153, 255);
+   color: rgb(138, 141, 144);
 }
 
 .delete {
-   color: red;
+   color: rgb(138, 141, 144);
 }

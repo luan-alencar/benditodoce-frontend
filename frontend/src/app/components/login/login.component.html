@@ -1,11 +1,9 @@
 <div class="container">
    <form class="form mat-elevation-z8">
 
-      <h1>BenditoDoce</h1>
+      <img src="assets/img/bendito doce.png" alt="BenditoDoce">
 
-      <img src="assets/img/logo.jpeg" alt="BenditoDoce">
-
-      <mat-form-field class="full-width" appearance="outline">
+      <mat-form-field class="full-width" appearance="fill" color="warn">
          <mat-label>E-mail</mat-label>
          <input 
          [formControl]="email"
@@ -17,7 +15,7 @@
          <mat-icon matSuffix>email</mat-icon>
       </mat-form-field>
 
-      <mat-form-field class="full-width" appearance="outline">
+      <mat-form-field class="full-width" appearance="fill" color="warn">
          <mat-label>Senha</mat-label>
          <input 
          [formControl]="senha"
@@ -30,7 +28,7 @@
          <mat-icon matSuffix>password</mat-icon>
       </mat-form-field>
 
-      <button (click)="logar()" [disabled]="!validaCampos()" class="full-width mat-elevation-z4" mat-stroked-button color="primary">Login</button>
+      <button (click)="logar()" [disabled]="!validaCampos()" class="full-width mat-elevation-z4" mat-raised-button color="warn">Login</button>
    </form>
 
 </div>
